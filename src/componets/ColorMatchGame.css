@@ -1,0 +1,47 @@
+.color-match-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .color-display {
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 20px 0;
+    transition: color 0.3s ease;
+  }
+  
+  .color-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .color-buttons button {
+    padding: 12px 20px;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+  }
+  
+  .color-buttons button:hover {
+    transform: scale(1.05);
+  }
+  
+  .message {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    font-weight: 600;
+  }
+  
+  .score {
+    font-size: 1.2rem;
+    color: #f39c12;
+    font-weight: bold;
+  }
+  

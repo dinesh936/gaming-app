@@ -1,0 +1,61 @@
+.emoji-game {
+    background: linear-gradient(to right, #1f4037, #99f2c8);
+    padding: 40px 20px;
+    border-radius: 20px;
+    width: 90%;
+    max-width: 400px;
+    margin: 40px auto;
+    color: #fff;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .emoji-game h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .game-info {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .emoji-btn {
+    font-size: 3rem;
+    padding: 20px;
+    border: none;
+    border-radius: 50%;
+    background-color: #ffffff33;
+    cursor: pointer;
+    transition: transform 0.1s;
+  }
+  
+  .emoji-btn:hover {
+    transform: scale(1.1);
+  }
+  
+  .start-btn {
+    padding: 12px 25px;
+    background-color: #00b894;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+  }
+  
+  .start-btn:hover {
+    background-color: #019875;
+  }
+  
+  .result-text {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #fff;
+    margin: 20px 0;
+  }
+  

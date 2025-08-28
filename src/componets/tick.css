@@ -1,0 +1,142 @@
+\/* General layout */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #f7f7f7, #e2e2e2);
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+h2, h3 {
+  color: #444;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #2d89ef;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #1b5fbf;
+}
+
+/* Game Selection Grid */
+.game-selection {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+/* Snake Game */
+.board {
+  display: inline-block;
+  margin-top: 20px;
+  background-color: #eaeaea;
+  border: 2px solid #ccc;
+  padding: 10px;
+}
+
+.row {
+  display: flex;
+}
+
+.cell {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+}
+
+.snake {
+  background-color: #27ae60;
+}
+
+.food {
+  background-color: #e74c3c;
+}
+
+/* Tic-Tac-Toe */
+.square {
+  width: 60px;
+  height: 60px;
+  background-color: #fafafa;
+  border: 2px solid #555;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+  cursor: pointer;
+  margin: 2px;
+  transition: background-color 0.3s ease;
+}
+
+.square:hover {
+  background-color: #eee;
+}
+
+.tictactoe-board {
+  display: inline-block;
+  margin-top: 20px;
+}
+
+/* Shooting Game */
+.shooting-container {
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+  height: 300px;
+  margin: 0 auto;
+  border: 2px solid #333;
+  background-color: #f5f5f5;
+  overflow: hidden;
+}
+
+.player {
+  position: absolute;
+  bottom: 10px;
+  width: 30px;
+  height: 30px;
+  background-color: #2980b9;
+}
+
+.bullet {
+  position: absolute;
+  width: 8px;
+  height: 20px;
+  background-color: #c0392b;
+}
+
+.target {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background-color: #27ae60;
+  border-radius: 50%;
+}
+
+/* Back Button */
+.back-btn {
+  margin-top: 30px;
+  background-color: #16a085;
+}
+
+.back-btn:hover {
+  background-color: #12876f;
+}

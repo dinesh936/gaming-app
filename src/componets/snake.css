@@ -1,0 +1,80 @@
+/* SnakeGame.css */
+
+h1 {
+  text-align: center;
+  margin-bottom: 10px;
+  color: #f86b38;
+  font-size: 2.5rem;
+}
+
+h2 {
+  color: #f87171;
+}
+
+h3 {
+  margin: 5px 0;
+  color: #facc15;
+}
+
+.board {
+  display: inline-block;
+  margin: 20px auto;
+  background-color: #1e293b;
+  border: 4px solid #b3c9d2;
+  box-shadow: 0 0 20px #38bdf8;
+}
+
+.row {
+  display: flex;
+}
+
+.cell {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #334155;
+  background-color: #0f172a;
+  box-sizing: border-box;
+}
+
+.cell.snake {
+  background-color: #4ade80;
+  border-radius: 5px;
+  box-shadow: inset 0 0 4px #16a34a;
+}
+
+.cell.food {
+  background-color: #f87171;
+  border-radius: 50%;
+  box-shadow: inset 0 0 6px #dc2626;
+}
+
+button {
+  background-color: #38bdf8;
+  color: #0f172a;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #0ea5e9;
+  box-shadow: 0 0 10px #38bdf8;
+}
+.go-back-btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #ff4e50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.go-back-btn:hover {
+  background-color: #ff1e2b;
+}
